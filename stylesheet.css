@@ -1,0 +1,101 @@
+body { 
+  min-width: 650px;
+ text-align: center; 
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+#logo {
+  padding-left: 535px;
+}
+.imageOne{
+  padding-right: 20px;
+}
+.imageTwo{
+  padding-right: 20px;
+}
+.login {
+  text-align: right;
+  padding-bottom: 20px;
+}
+.userName {
+  text-align: right;
+}
+.buttons {
+  text-align: right;
+}
+.login {
+  text-align: right;
+}
+#wrapper { 
+  width: 650px;
+ margin: 0 auto;
+  text-align: left; 
+}
+.font12 {
+  font-size: 15px;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 3px;
+  border-radius: 25px;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 20px;
+  height: 15px;
+
+  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+ 
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen {
+  .nav li {
+    width: 125px;
+    border-bottom: none;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.4em;
+    
+  }
+ 
+ 
+  /* Option 1 - Display Inline */
+h3 {
+ 
+   padding-bottom: 20px;
+  }
+.nav li {
+
+    display: inline-block;
+
+    margin-left: 10px;
+   
+    padding-right: 5px;
+
+  }
+
+
